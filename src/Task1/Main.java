@@ -1,6 +1,5 @@
 package Task1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -30,5 +29,7 @@ public class Main {
         System.out.println(maxString);
         System.out.println("Самая короткая строка размером " + minString.length() + ":");
         System.out.println(minString);
+
+        sc.close();
     }
 }
