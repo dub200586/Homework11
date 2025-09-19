@@ -17,5 +17,7 @@ public class Main {
         }
 
         System.out.println("Слово с дублированными символами: " + doubleWord);
+
+        sc.close();
     }
 }

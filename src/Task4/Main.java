@@ -23,11 +23,13 @@ public class Main {
             stringArray[i] = stringArray1[i];
             count++;
         }
-        for (int j = 0; j < stringArray2.length; j++) {
-            stringArray[count++] = stringArray2[j];
+
+        for (String s : stringArray2) {
+            stringArray[count++] = s;
         }
-        for (int k = 0; k < stringArray3.length; k++) {
-            stringArray[count++] = stringArray3[k];
+
+        for (String s : stringArray3) {
+            stringArray[count++] = s;
         }
 
         for (String string : stringArray) {
@@ -36,6 +38,8 @@ public class Main {
                 break;
             }
         }
+
+        sc.close();
     }
 
     private static boolean hasUniqueChars(String string) {
